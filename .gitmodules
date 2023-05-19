@@ -1,0 +1,6 @@
+[submodule "go/src/kitob/go_book_servise/book_protos"]
+	path = go/src/kitob/go_book_servise/book_protos
+	url = https://github.com/Diyorbek-Majidov-2110125/book_protos.git
+[submodule "go/src/kitob/book_protos"]
+	path = go/src/kitob/book_protos
+	url = https://github.com/Diyorbek-Majidov-2110125/book_protos.git
