@@ -4,6 +4,19 @@ package user_service;
 option go_package="genproto/user_service";
 
 
+message CreateOTP {
+    string phone_number = 1;
+}
+
+message VerifyOTP {
+    string phone_number = 1;
+    string code = 2;
+}
+
+message UserPhoneNumberReq {
+    string phone_number = 1;
+}
+
 message User{
     string id  =1;
     string first_name = 2;
